@@ -170,6 +170,6 @@ sns.scatterplot(x=y_test, y=y_pred_test)
 plt.xlabel("Actual Ratings")
 plt.ylabel("Predicted Ratings")
 plt.title("Random Forest Predictions vs Actual Ratings")
-plt.plot([0,10], [0,10], color='red', linestyle='--')  # perfect prediction line
+plt.plot([0,10], [0,10], color='red', linestyle='--') 
 plt.show()
 
