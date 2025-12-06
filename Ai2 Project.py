@@ -114,7 +114,7 @@ plt.show()
 
 df_clean.shape
 
-X = df_clean[['Metascore','VotesCount','Duration']]
+X = df_clean[['Metascore','VotesCount','Duration']].copy()
 y = df_clean['Rating']
 
 X['VotesCount'] = np.log1p(X['VotesCount'])
